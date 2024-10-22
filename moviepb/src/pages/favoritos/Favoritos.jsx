@@ -13,7 +13,7 @@ export default function Favoritos() {
   }, []);
 
   const handleMovieClick = (movieId) => {
-    navigate(`/pagemovie-PB/detalhes/${movieId}`);
+    navigate(`/moviepb/detalhes/${movieId}`);
   };
 
   return (

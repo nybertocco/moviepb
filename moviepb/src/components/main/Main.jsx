@@ -47,7 +47,7 @@ export default function Main() {
   };
 
   const handleMovieClick = (movieId) => {
-    navigate(`/pagemovie-PB/detalhes/${movieId}`);
+    navigate(`/moviepb/detalhes/${movieId}`);
   };
 
   return (

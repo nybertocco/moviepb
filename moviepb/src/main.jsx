@@ -8,15 +8,15 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/pagemovie-PB/",
+    path: "/moviepb/",
     element: <Home />,
   },
   {
-    path: "/pagemovie-PB/favoritos",
+    path: "/moviepb/favoritos",
     element: <Favoritos />,
   },
   {
-    path: "/pagemovie-PB/detalhes/:id",
+    path: "/moviepb/detalhes/:id",
     element: <Details />,
   },
   {

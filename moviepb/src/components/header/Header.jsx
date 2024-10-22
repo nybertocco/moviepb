@@ -8,10 +8,10 @@ export default function Header() {
 
       <menu>
         <ul>
-          <Link to="/pagemovie-PB/">
+          <Link to="/moviepb/">
             <li>Home</li>
           </Link>
-          <Link to="/pagemovie-PB/favoritos">
+          <Link to="/moviepb/favoritos">
             <li>Favoritos</li>
           </Link>
         </ul>
