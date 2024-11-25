@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./header.css";
 
-export default function Header() {
+export default function Header({ onSearch }) {
   return (
     <div className="header">
       <h1>NycFilmes</h1>
@@ -17,7 +17,12 @@ export default function Header() {
         </ul>
       </menu>
 
-      <input type="text" placeholder="Buscar" className="search" />
+      <input
+        type="text"
+        placeholder="Buscar"
+        className="search"
+        onChange={(e) => onSearch(e.target.value)}
+      />
     </div>
   );
 }

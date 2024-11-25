@@ -207,6 +207,10 @@
     border-radius: 8px;
     padding: 3px;
   }
+
+  button:hover {
+    cursor: pointer;
+  }
       
   }
   
@@ -318,5 +322,8 @@
       padding: 3px;
     }
     
+    button:hover {
+      cursor: pointer;
+    }
   }    
   
